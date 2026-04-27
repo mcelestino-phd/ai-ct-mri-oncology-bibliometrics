@@ -210,7 +210,7 @@ niter = 4000
 V(g_sub)$size <- 8 + (V(g_sub)$degree / max(V(g_sub)$degree)) * 6
 E(g_sub)$color <- adjustcolor("grey50", alpha.f = 0.30)
 E(g_sub)$width <- 0.6
-cluster_colors <- c("#4FA3D1", "#4FB286", "#C05746")
+cluster_colors <- c("#4FA3D1", "#4FB286", "#C05746", "#F2C14E")
 V(g_sub)$color <- cluster_colors[V(g_sub)$cluster]
 
 ############################################################
